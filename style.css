@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    background-image: url(back.jpg.webp);
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgb(0,0,0,0.3);
+    background: #fff;
+    padding: 30px;
+    margin: 8% auto 0 ;
+    text-align: center;
+}
+    
+
+.box h1{
+    color: #162d3d;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box .input[type="text"].box .input[type="password"]{
+    border-color: rgb(135, 96, 244);
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 20px solid #000d55;
+    padding: 14px 10px;
+    width: 220px;
+    outline: solid;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box .input[type=text]:focus,box .input[type=password]:focus{
+      
+    width: 220px;
+    margin-bottom: 50px;
+    border-color: rgb(219, 96, 244);
+
+}
+
+.box .input[type=submit]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 20px solid #000d55;
+    padding: 14px 11px;
+    width: 220px;
+    outline: solid;
+    color: white;
+    border-radius: 50px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.sign-btn:hover {
+    background-color: rgb(223, 213, 213);
+    
+}
+.box .input[type=submit]:hover{
+    background: rgb(223, 213, 213);
+}
+.fa-times {
+    color: red;
+}
+.fa-check {
+    color: green;
+}
+
